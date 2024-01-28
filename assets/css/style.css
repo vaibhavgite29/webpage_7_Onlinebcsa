@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+:root{
+    --darkpink :#dd127b;
+}
+
+.darkpink{
+    background-color: var(--darkpink);
+}
+.text-darkpink{
+    color: var(--darkpink);
+}
+
+/* Header Section Start */
+.navbar-brand img{
+    transition: 0.2s linear;
+}
+.navbar-brand img:hover{
+    transform: scale(1.05);
+    transition: 0.2s linear;
+}
+/* Header Section End */
+
+
+/* Banner Starts */
+.carousel-caption{
+    font-family: 'Solway', serif;
+    left: 10%;top:39%;
+}
+.carousel-caption button{
+    border-radius: 21px;
+    transition: 0.3s ease;
+}
+/* Banner ends */
+
+/* About starts */
+.news{
+    box-shadow: 0px 0px 35px 8px #d8d7d7;
+    text-align: center;
+    border-radius: 10px;   
+}
+.about-txt{
+    text-align: justify;
+}
+/* About ends */
